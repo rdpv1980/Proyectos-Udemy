@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: org.aguzman.junit5app.ejemplos.models.CuentaTest
+-------------------------------------------------------------------------------
+Tests run: 72, Failures: 9, Errors: 2, Skipped: 11, Time elapsed: 5.317 s <<< FAILURE! - in org.aguzman.junit5app.ejemplos.models.CuentaTest
+testDebitoCuentaMethodSource{String}[6]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest.testDebitoCuentaMethodSource(CuentaTest.java:415)
+
+testDebitoCuentaCsvSource2{String, String, String, String}[1]  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <John> but was: <Andres>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:383)
+
+testDebitoCuentaCsvSource2{String, String, String, String}[3]  Time elapsed: 0.001 s  <<< ERROR!
+org.aguzman.junit5app.ejemplos.exceptions.DineroInsuficienteException: Dinero insuficiente
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:379)
+
+testDebitoCuentaCsvSource2{String, String, String, String}[5]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Lucas> but was: <Luca>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:383)
+
+testDebitoCuentaCsvSource2{String, String, String, String}[6]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvSource2(CuentaTest.java:384)
+
+testDebitoCuentaCsvSource{String, String}[6]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvSource(CuentaTest.java:370)
+
+testDebitoCuentaCsvFileSource{String}[7]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvFileSource(CuentaTest.java:393)
+
+testDebitoCuentaCsvFileSource2{String, String, String, String}[1]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <John> but was: <Andres>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvFileSource2(CuentaTest.java:405)
+
+testDebitoCuentaCsvFileSource2{String, String, String, String}[3]  Time elapsed: 0.001 s  <<< ERROR!
+org.aguzman.junit5app.ejemplos.exceptions.DineroInsuficienteException: Dinero insuficiente
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvFileSource2(CuentaTest.java:401)
+
+testDebitoCuentaCsvFileSource2{String, String, String, String}[5]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Lucas> but was: <Luca>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvFileSource2(CuentaTest.java:405)
+
+testDebitoCuentaCsvFileSource2{String, String, String, String}[6]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.aguzman.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaCsvFileSource2(CuentaTest.java:406)
+
